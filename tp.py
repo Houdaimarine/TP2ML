@@ -228,21 +228,3 @@ print("Final Results")
 print(results_df)
 
 
-models = ['LR', 'KNN', 'DT', 'RF', 'SVM']
-scores = [0.96, 0.95, 0.93, 0.98, 0.97]
-
-plt.figure(figsize=(8,5))
-
-plt.bar(models, scores)
-
-plt.ylim(0.90,1.00)
-
-plt.xlabel("Modèles")
-
-plt.ylabel("Accuracy")
-
-plt.title("Comparaison des modèles")
-
-plt.show()
-
-
