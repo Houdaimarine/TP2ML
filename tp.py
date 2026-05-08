@@ -246,5 +246,3 @@ plt.title("Comparaison des modèles")
 plt.show()
 
 
-print("\nProject completed successfully")
-
